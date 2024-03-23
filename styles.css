@@ -44,7 +44,7 @@ body {
 .header__title-date {
   font-size: 64px;
   line-height: 81px;
-  padding-bottom: 75px;
+  padding-bottom: 85px;
   position: relative;
 }
 
@@ -147,6 +147,7 @@ body {
 
 .main__timing-list img {
   justify-self: end;
+  align-self: center;
 }
 
 .main__timing-item {
@@ -355,7 +356,7 @@ body {
     margin-bottom: 70px;
   }
   .main__timing-list img {
-    width: 95px;
+    width: 90px;
   }
   .main__info {
     margin-top: 70px;
