@@ -21,7 +21,7 @@ body {
 
 .header__title {
   display: flex;
-  min-height: 100vh;
+  height: 100vh;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -44,7 +44,7 @@ body {
 .header__title-date {
   font-size: 64px;
   line-height: 81px;
-  padding-bottom: 85px;
+  padding-bottom: 90px;
   position: relative;
 }
 
@@ -279,6 +279,9 @@ body {
 @media screen and (max-width: 435px) {
   .container {
     max-width: 375px;
+  }
+  .header {
+    background-position-x: -389px;
   }
   .main__invite-text,
   .main__location-text {
